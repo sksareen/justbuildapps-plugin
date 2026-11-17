@@ -1,0 +1,26 @@
+{
+  "name": "jba",
+  "displayName": "JustBuildApps",
+  "version": "0.1.0",
+  "description": "Find a ready-made app before you build one, and post what you ship. Searches the JustBuildApps catalog of AI-built apps, and adds /jba:post to publish an update about your app from your latest commits.",
+  "author": {
+    "name": "JustBuildApps",
+    "url": "https://justbuildapps.com"
+  },
+  "homepage": "https://justbuildapps.com/skills",
+  "repository": "https://github.com/sksareen/justbuildapps-plugin",
+  "license": "MIT",
+  "keywords": [
+    "apps",
+    "discovery",
+    "launch",
+    "indie",
+    "vibecoding",
+    "changelog",
+    "build-in-public"
+  ],
+  "icon": "./.claude-plugin/icon.png",
+  "documentationUrl": "https://justbuildapps.com/developers",
+  "privacyPolicyUrl": "https://justbuildapps.com/privacy",
+  "termsOfServiceUrl": "https://justbuildapps.com/terms"
+}

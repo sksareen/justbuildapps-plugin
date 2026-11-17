@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "justbuildapps": {
+      "type": "http",
+      "url": "https://api.justbuildapps.com/mcp"
+    }
+  }
+}

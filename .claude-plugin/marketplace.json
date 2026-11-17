@@ -1,0 +1,15 @@
+{
+  "name": "justbuildapps",
+  "description": "JustBuildApps: the catalog of AI-built apps. Find one before you build one, and post what you ship.",
+  "owner": {
+    "name": "JustBuildApps",
+    "url": "https://justbuildapps.com"
+  },
+  "plugins": [
+    {
+      "name": "jba",
+      "source": "./",
+      "description": "Find a ready-made app before you build one, and post what you ship. Searches the JustBuildApps catalog of AI-built apps, and adds /jba:post to publish an update about your app from your latest commits."
+    }
+  ]
+}
