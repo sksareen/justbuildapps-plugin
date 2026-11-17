@@ -7,9 +7,9 @@
   },
   "plugins": [
     {
-      "name": "jba",
+      "name": "justbuildapps",
       "source": "./",
-      "description": "Find a ready-made app before you build one, and post what you ship. Searches the JustBuildApps catalog of AI-built apps, and adds /jba:post to publish an update about your app from your latest commits."
+      "description": "Find a ready-made app before you build one, and post what you ship. Searches the JustBuildApps catalog of AI-built apps, and adds /justbuildapps:post to publish an update about your app from your latest commits."
     }
   ]
 }

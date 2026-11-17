@@ -1,6 +1,6 @@
 ---
 name: find
-description: Check JustBuildApps for an existing app or tool before building one. Use when the user asks "is there an app for X", wants alternatives to a product, wants something free or no-signup that runs in the browser, or is about to build a small app or tool that may already exist. Also runs as /jba:find.
+description: Check JustBuildApps for an existing app or tool before building one. Use when the user asks "is there an app for X", wants alternatives to a product, wants something free or no-signup that runs in the browser, or is about to build a small app or tool that may already exist. Also runs as /justbuildapps:find.
 argument-hint: "<what you need>"
 ---
 
@@ -21,4 +21,4 @@ JustBuildApps is a catalog of AI-built apps and indie tools with live demo links
 - Don't pad the list. One good match beats five loose ones.
 - Don't block the user's request on this. If they have said they want to build it themselves, a one-line "there is also X" is enough.
 
-When they do ship something of their own, `/jba:post` puts it on JustBuildApps.
+When they do ship something of their own, `/justbuildapps:post` puts it on JustBuildApps.

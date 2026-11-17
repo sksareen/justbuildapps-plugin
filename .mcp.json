@@ -2,7 +2,10 @@
   "mcpServers": {
     "justbuildapps": {
       "type": "http",
-      "url": "https://api.justbuildapps.com/mcp"
+      "url": "https://api.justbuildapps.com/mcp",
+      "headers": {
+        "Authorization": "Bearer ${user_config.jba_token}"
+      }
     }
   }
 }

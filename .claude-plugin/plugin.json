@@ -1,8 +1,8 @@
 {
-  "name": "jba",
+  "name": "justbuildapps",
   "displayName": "JustBuildApps",
-  "version": "0.1.0",
-  "description": "Find a ready-made app before you build one, and post what you ship. Searches the JustBuildApps catalog of AI-built apps, and adds /jba:post to publish an update about your app from your latest commits.",
+  "version": "0.2.0",
+  "description": "Find a ready-made app before you build one, and post what you ship. Searches the JustBuildApps catalog of AI-built apps, and adds /justbuildapps:post to publish an update about your app from your latest commits.",
   "author": {
     "name": "JustBuildApps",
     "url": "https://justbuildapps.com"
@@ -22,5 +22,13 @@
   "icon": "./.claude-plugin/icon.png",
   "documentationUrl": "https://justbuildapps.com/developers",
   "privacyPolicyUrl": "https://justbuildapps.com/privacy",
-  "termsOfServiceUrl": "https://justbuildapps.com/terms"
+  "termsOfServiceUrl": "https://justbuildapps.com/terms",
+  "userConfig": {
+    "jba_token": {
+      "type": "string",
+      "title": "JustBuildApps token",
+      "description": "Only needed to post updates. Create one at justbuildapps.com/settings/tokens. Leave empty to search without an account.",
+      "sensitive": true
+    }
+  }
 }
